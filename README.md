@@ -81,6 +81,8 @@ PyLDAvis:
 
 The PyLDAvis library is a great way to visualize topics from a topic model.For the interactive dashboard run the pyLDAvis cell in the notebook.
 
+Results:
+
 ![image](https://user-images.githubusercontent.com/75737889/206871833-86cdfd88-d081-466a-a636-1a2578d4795d.png)
 
 "According to the public's perceptions, 44.1% of people are favorable towards digital India, compared to only 16% who are unfavorable and the remaining who seem neutral."
