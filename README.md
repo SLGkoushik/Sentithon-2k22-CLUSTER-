@@ -118,7 +118,8 @@ Ex: From Eyeballing
 **pyLDAvis Output:**
 ![image](https://user-images.githubusercontent.com/75737889/206871951-596bf996-c6b0-4f8e-b2b5-e58bf50802cb.png)
 
-* For the interactive dashboard run the pyLDAvis cell in the notebook *
+For the interactive dashboard run the pyLDAvis cell in the notebook 
+---
 On the left, the topics are plotted on a 2-dimensional plane representing the distance between each topic. While the right horizontal bar chart represents the words most relevant to each topic. The chart is interactive, allowing you to select specific topics and view the related words for each topic, in the hope of inferring meaning from each topic.
 ---
 Regards Team Cluster
