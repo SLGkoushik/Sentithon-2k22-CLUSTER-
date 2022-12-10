@@ -1,6 +1,6 @@
 # Sentithon-2k22-CLUSTER-
 We chose the theme "Digital India" because, in the modern world, every developed country is modernizing and placing a priority on cashless trade, and at this point in the growth of our economy, digital India promotes such trade. In this sentiment analysis, we investigate all positive, negative, and neutral opinions of people on digital India.
-1. Data Collection:
+1. **Data Collection:**
 
     •	Platforms are used for extracting the data – Twitter
 	  Twitter is a platform where people share their opinion or views, and find out what is happening in the world right now. This makes Twitter a perfect platform to     source data for conducting research.
@@ -28,7 +28,7 @@ We chose the theme "Digital India" because, in the modern world, every developed
 •	Collected data is Noisy
 	The information gathered from tweets includes stop words, hashtags, non-English languages, and mentions.
   
-2. Data Cleaning:
+**2. Data Cleaning:**
 
 The various data cleaning steps are:
 
@@ -50,7 +50,7 @@ The tokenizer simply splits words by whitespace, similar to the pythons .split()
 •	Lemmatization
 To further reduce noise in our text data, and get the most accurate frequency distributions possible, cue lemmatization. Lemmatization is the act of breaking a word token down to its root meaning.
 
-3. Sentiment Analysis:
+**3. Sentiment Analysis:**
 
 Modeling Approach – Text Blob
 
@@ -60,7 +60,7 @@ Text blob sentiment analyzer returns two properties for a given input sentence:
 
 •	Subjectivity is also a float that lies in the range of [0,1]. Subjective sentences generally refer to opinion, emotion, or judgment.
 
-Why Text Blob?
+**Why Text Blob?**
 
 Text Blob is built on top of NLTK and Pattern also it is very easy to use and can process the text in a few lines of code. Text Blob is an open-source and free-to-use python library for processing textual data. It offers a simple API to access its methods and perform basic NLP tasks.
 
@@ -69,7 +69,7 @@ Text Blob is built on top of NLTK and Pattern also it is very easy to use and ca
 
 ![image](https://user-images.githubusercontent.com/75737889/206871766-27275150-f8fc-4204-a954-63b9f0c3723f.png)
 
-4. Topic Modeling:
+**4. Topic Modeling:**
 
 Topic modeling is the method of extracting needed attributes from a bag of words. This is critical because each word in the corpus is treated as a feature in NLP.
 
@@ -77,7 +77,7 @@ Latent Dirichlet Allocation (LDA):
 
 Latent Dirichlet Allocation (LDA) is an example of a topic model and is used to classify text in a document to a particular topic. It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
 
-PyLDAvis:
+**PyLDAvis:**
 
 The PyLDAvis library is a great way to visualize topics from a topic model.For the interactive dashboard run the pyLDAvis cell in the notebook.
 
@@ -87,7 +87,7 @@ Results:
 
 "According to the public's perceptions, 44.1% of people are favorable towards digital India, compared to only 16% who are unfavorable and the remaining who seem neutral."
 
-Fitting an LDA model in Gensim :
+**Fitting an LDA model in Gensim :**
 
 Here’s the output
 
@@ -115,7 +115,7 @@ Ex: From Eyeballing
 2nd topic may be related to increase in the number of transactions due to the digital India initiative.
 
 ---
-pyLDAvis Output:
+**pyLDAvis Output:**
 ![image](https://user-images.githubusercontent.com/75737889/206871951-596bf996-c6b0-4f8e-b2b5-e58bf50802cb.png)
 
 ** For the interactive dashboard run the pyLDAvis cell in the notebook**
