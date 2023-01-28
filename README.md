@@ -1,4 +1,4 @@
-# Sentithon-2k22-CLUSTER-
+# Sentiment Analysis and topic modeling on Digital India
 We chose the theme "Digital India" because, in the modern world, every developed country is modernizing and placing a priority on cashless trade, and at this point in the growth of our economy, digital India promotes such trade. In this sentiment analysis, we investigate all positive, negative, and neutral opinions of people on digital India.
 1. **Data Collection:**
 
